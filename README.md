@@ -65,17 +65,24 @@ It is designed to support **operational planning, infrastructure optimization, a
 ---
 
 ## 📁 Repository Structure
-📦 US-Border-Crossing-Data-Analysis-PowerBI
-┣ 📂 Dashboard_Screenshots
-┣ 📂 Dataset
-┣ 📂 Report
-┃ ┗ 📄 US_Border_Crossing_Analysis_Report.pdf
-┣ 📄 US_Border_Crossing_Dashboard.pbix
-┣ 📄 README.md
-┗ 📄 .gitignore
+
+```text
+US-Border-Crossing-Data-Analysis-PowerBI/
+├── Dashboard_Screenshots/
+│   ├── Page1_Overview.png
+│   ├── Page2_Port_Analysis.png
+│   └── ...
+├── Dataset/
+│   └── US_Border_Crossing_Data.csv
+├── Report/
+│   └── US_Border_Crossing_Analysis_Report.pdf
+├── US_Border_Crossing_Dashboard.pbix
+├── README.md
+└── .gitignore
 
 
 
+```
 ---
 
 ## 📸 Dashboard Pages
