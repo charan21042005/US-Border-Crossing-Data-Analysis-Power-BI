@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Power BI temporary & backup files
+*.pbix.bak
+*.tmp
+
+# Logs
+*.log
+
+# Excel temp files
+~$*.xlsx
+
+# Editor settings (optional)
+.vscode/
