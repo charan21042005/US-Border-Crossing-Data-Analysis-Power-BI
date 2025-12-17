@@ -1,8 +1,8 @@
-# 🇺🇸 US Border Crossing Data Analysis Dashboard (Power BI)
+#  US Border Crossing Data Analysis Dashboard (Power BI)
 
-An end-to-end **Power BI analytics project** analyzing U.S. border crossing activity to uncover traffic patterns, port performance, transport mode contributions, seasonal trends, and future outlook using forecasting.
+An end-to-end Power BI analytics project analyzing U.S. border crossing activity to uncover traffic patterns, port performance, transport mode contributions, seasonal trends, and future outlook using forecasting.
 
-This project demonstrates **data modeling, DAX proficiency, and analytical storytelling** using a real-world government dataset.
+This project demonstrates **data modeling, DAX proficiency, and analytical storytelling** using a real-world U.S. government dataset.
 
 ---
 
@@ -10,57 +10,82 @@ This project demonstrates **data modeling, DAX proficiency, and analytical story
 
 The dashboard provides a comprehensive analysis of U.S. border crossings across:
 
-- Ports of entry  
-- U.S.–Mexico and U.S.–Canada borders  
-- Multiple transport modes  
-- Time (monthly, yearly, seasonal)  
+- Ports of entry
+- U.S.–Mexico and U.S.–Canada borders
+- Multiple transport modes
+- Time dimensions (monthly, yearly, seasonal)
+- Forecasting and future trends
 
-It is designed to support **operational planning, infrastructure optimization, and data-driven decision-making**.
+The goal is to support **operational planning, infrastructure optimization, and data-driven decision-making** for cross-border operations.
+
+---
+
+## 🧩 Dashboard Pages
+
+1. **Landing Page**  
+   Project introduction, dataset source, GitHub & LinkedIn links, and navigation.
+
+2. **Overview Dashboard**  
+   High-level KPIs such as total crossings, total ports, YoY growth, and overall trends.
+
+3. **Port & Border Deep-Dive Analysis**  
+   Port-level performance, traffic concentration (Pareto analysis), and geographic distribution.
+
+4. **Transport Mode & Measure Analysis**  
+   Analysis of crossings by transport mode (personal vehicles, trucks, pedestrians, etc.).
+
+5. **Temporal & Seasonal Analysis**  
+   Monthly seasonality, year-over-year trends, rolling averages, and seasonal rank shifts.
+
+6. **Forecasting & Future Outlook**  
+   Time-series forecasting with confidence intervals and trend direction indicators.
+
+7. **Operational Insights & Recommendations**  
+   Risk quadrants, volatility analysis, and performance benchmarking.
+
+8. **Results Summary & Key Insights**  
+   Consolidated tables, matrices, and executive-level summaries.
+
+9. **Executive Summary & Strategic Recommendations**  
+   High-level insights and actionable recommendations for stakeholders.
 
 ---
 
 ## 📊 Key Analytical Highlights
 
-- Executive overview of total crossings, ports, and YoY growth
-- Port-level performance and traffic concentration (Pareto Analysis)
-- Border-wise comparison of traffic volume and operational load
-- Transport mode contribution analysis
-- Temporal and seasonal trend analysis
-- Rolling averages and volatility assessment
-- Forecasting and future outlook using time-series analytics
-- Operational insights and strategic recommendations
+- U.S.–Mexico border accounts for the majority of total crossings.
+- A small number of ports contribute a disproportionately large share of traffic (Pareto effect).
+- Personal vehicles dominate overall border traffic.
+- Clear seasonal patterns with peak activity during mid-year months.
+- Significant decline around 2020 followed by gradual recovery.
+- Forecast indicates continued recovery with moderate volatility.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Tools & Skills Used
 
 - **Power BI Desktop**
-- **DAX**
-  - CALCULATE
-  - FILTER
-  - Time Intelligence (YoY %, Rolling Averages)
-  - Pareto logic
-- **Data Modeling**
-  - Star Schema
-  - Fact & Dimension tables
-- **Advanced Visualizations**
-  - Map
-  - Line & Area Charts
-  - Scatter Plot
-  - Pareto Chart
-  - KPI Cards
-  - Forecasting Analytics
+- **DAX**  
+  - CALCULATE, FILTER  
+  - YoY Growth %  
+  - Rolling Averages  
+  - Pareto & cumulative share logic
+- **Data Modeling (Star Schema)**
+- **Advanced Visuals**  
+  - Map, Line, Bar, Scatter  
+  - Decomposition Tree  
+  - Forecasting visuals
 - **Analytical Storytelling & Dashboard Design**
 
 ---
 
-## 🗂 Dataset
+## 📂 Dataset
 
-- Source: **U.S. Bureau of Transportation Statistics (BTS)**
-- Data includes inbound crossings at U.S.–Canada and U.S.–Mexico borders
-- Covers vehicles, passengers, pedestrians, and containers over time
+The dataset used in this project is included in the repository as a ZIP file:
 
-📎 *Dataset link is included in the dashboard landing page.*
+- `Border_Crossing_Entry_Data_DataSet.zip`
+
+Source: U.S. Bureau of Transportation Statistics (Border Crossing Entry Data)
 
 ---
 
@@ -126,6 +151,18 @@ Special thanks to **Jaffar Amin** for guidance and support while learning Power 
 
 ---
 
+## 🚀 How to Use
+
+1. Download the repository or clone it.
+2. Extract the dataset ZIP file if required.
+3. Open `US_Border_Crossing_Dashboard.pbix` using **Power BI Desktop**.
+4. Interact with slicers to explore insights across borders, ports, time, and transport modes.
+
+---
+## 👤 Author
+
+**Sri Charan**  
+B.Tech CSE, Lovely Professional University  
 ## 📬 Feedback & Contact
 
 Feedback, suggestions, and discussions are welcome.
