@@ -124,6 +124,39 @@ US-Border-Crossing-Data-Analysis-PowerBI/
 Screenshots of each page are provided in the repository.
 
 ---
+## 📊 Dashboard Pages Preview
+
+### Page 1: Landing Page – Project Overview
+![Page 1](Dashboard%20Screenshots/1.Screenshot%202025-12-15%20210654.png)
+
+### Page 2: Dashboard Contents & Navigation
+![Page 2](Dashboard%20Screenshots/2.Screenshot%202025-12-15%20210707.png)
+
+### Page 3: US Border Crossing Overview
+![Page 3](Dashboard%20Screenshots/3.Screenshot%202025-12-15%20210720.png)
+
+### Page 4: Port-Level Traffic Analysis
+![Page 4](Dashboard%20Screenshots/4.Screenshot%202025-12-15%20210734.png)
+
+### Page 5: Border-wise & Transport Mode Analysis
+![Page 5](Dashboard%20Screenshots/5.Screenshot%202025-12-15%20210746.png)
+
+### Page 6: Temporal & Seasonal Trends
+![Page 6](Dashboard%20Screenshots/6.Screenshot%202025-12-15%20210756.png)
+
+### Page 7: Forecasting & Future Outlook
+![Page 7](Dashboard%20Screenshots/7.Screenshot%202025-12-15%20210805.png)
+
+### Page 8: Operational Insights & Risk Analysis
+![Page 8](Dashboard%20Screenshots/8.Screenshot%202025-12-15%20210817.png)
+
+### Page 9: Results Summary & Key Insights
+![Page 9](Dashboard%20Screenshots/9.Screenshot%202025-12-15%20210829.png)
+
+### Page 10: Executive Summary & Strategic Recommendation
+![Page 10](Dashboard%20Screenshots/10.Screenshot%202025-12-15%20210842.png)
+
+---
 
 ## 🎯 Key Insights
 
