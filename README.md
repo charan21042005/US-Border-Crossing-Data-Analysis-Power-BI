@@ -1,91 +1,122 @@
 #  US Border Crossing Data Analysis Dashboard (Power BI)
 
-An end-to-end Power BI analytics project analyzing U.S. border crossing activity to uncover traffic patterns, port performance, transport mode contributions, seasonal trends, and future outlook using forecasting.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![DAX](https://img.shields.io/badge/DAX-Advanced-blue)
+![Data Analytics](https://img.shields.io/badge/Data-Analytics-success)
+![Forecasting](https://img.shields.io/badge/Forecasting-Time%20Series-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-This project demonstrates **data modeling, DAX proficiency, and analytical storytelling** using a real-world U.S. government dataset.
+An **end-to-end Power BI analytics dashboard** analyzing **U.S. Border Crossing Entry Data** to uncover  
+**traffic patterns, port performance, transport mode behavior, seasonal trends, and future outlook using forecasting**.
+
+This project demonstrates **data modeling, DAX proficiency, analytical reasoning, and dashboard storytelling**  
+using a **real-world U.S. government dataset**.
 
 ---
 
 ## 📌 Project Overview
 
-The dashboard provides a comprehensive analysis of U.S. border crossings across:
+This dashboard provides a **comprehensive analytical view** of U.S. border crossings across:
 
-- Ports of entry
-- U.S.–Mexico and U.S.–Canada borders
-- Multiple transport modes
-- Time dimensions (monthly, yearly, seasonal)
-- Forecasting and future trends
+- 🇺🇸 **U.S.–Mexico & U.S.–Canada borders**
+- 🚢 **Ports of entry**
+- 🚗 **Transport modes** (personal vehicles, trucks, pedestrians, trains, buses)
+- 📆 **Temporal trends** (monthly, yearly, seasonal)
+- 📈 **Rolling averages & YoY growth**
+- 🔮 **Forecasting & future outlook**
+- ⚠️ **Operational risk & performance insights**
 
-The goal is to support **operational planning, infrastructure optimization, and data-driven decision-making** for cross-border operations.
+🎯 **Goal:**  
+Support **operational planning, infrastructure optimization, risk monitoring, and data-driven decision-making**  
+for cross-border transportation and policy analysis.
 
 ---
 
 ## 🧩 Dashboard Pages
 
-1. **Landing Page**  
-   Project introduction, dataset source, GitHub & LinkedIn links, and navigation.
+1. **🏠 Landing Page**  
+   Project introduction, dataset source, GitHub & LinkedIn links, and dashboard navigation.
 
-2. **Overview Dashboard**  
-   High-level KPIs such as total crossings, total ports, YoY growth, and overall trends.
+2. **🧭 Contents & Navigation**  
+   Structured overview of all analytical sections with direct page navigation.
 
-3. **Port & Border Deep-Dive Analysis**  
-   Port-level performance, traffic concentration (Pareto analysis), and geographic distribution.
+3. **📊 Overview Dashboard**  
+   High-level KPIs, top ports, geographic distribution, and long-term trends.
 
-4. **Transport Mode & Measure Analysis**  
-   Analysis of crossings by transport mode (personal vehicles, trucks, pedestrians, etc.).
+4. **🚢 Port & Border Deep-Dive Analysis**  
+   Port-level performance, traffic concentration (Pareto analysis), and geographic hotspots.
 
-5. **Temporal & Seasonal Analysis**  
-   Monthly seasonality, year-over-year trends, rolling averages, and seasonal rank shifts.
+5. **🚗 Transport Mode & Measure Analysis**  
+   Contribution and trends of transport modes across borders.
 
-6. **Forecasting & Future Outlook**  
-   Time-series forecasting with confidence intervals and trend direction indicators.
+6. **📆 Temporal & Seasonal Analysis**  
+   Month-wise seasonality, YoY trends, rolling averages, and seasonal rank shifts.
 
-7. **Operational Insights & Recommendations**  
-   Risk quadrants, volatility analysis, and performance benchmarking.
+7. **🔮 Forecasting & Future Outlook**  
+   Time-series forecasting with confidence intervals and trend indicators.
 
-8. **Results Summary & Key Insights**  
-   Consolidated tables, matrices, and executive-level summaries.
+8. **⚙️ Operational Insights & Recommendations**  
+   Volatility analysis, risk quadrants, and operational benchmarking.
 
-9. **Executive Summary & Strategic Recommendations**  
-   High-level insights and actionable recommendations for stakeholders.
+9. **📋 Results Summary & Key Insights**  
+   Consolidated matrices, performance summaries, and comparative insights.
+
+10. **🧠 Executive Summary & Strategic Recommendations**  
+    Business-focused insights and actionable recommendations for stakeholders.
 
 ---
 
 ## 📊 Key Analytical Highlights
 
-- U.S.–Mexico border accounts for the majority of total crossings.
-- A small number of ports contribute a disproportionately large share of traffic (Pareto effect).
-- Personal vehicles dominate overall border traffic.
-- Clear seasonal patterns with peak activity during mid-year months.
-- Significant decline around 2020 followed by gradual recovery.
-- Forecast indicates continued recovery with moderate volatility.
+- 🇲🇽 **U.S.–Mexico border** accounts for the majority of total crossings.
+- 📌 **Pareto effect** observed: a small number of ports handle most traffic.
+- 🚗 **Personal vehicles** dominate overall border crossings.
+- 📆 Clear **seasonal patterns** with peak activity during mid-year months.
+- ⚠️ Sharp decline around **2020**, followed by gradual recovery.
+- 🔮 Forecasting indicates **continued upward recovery** with moderate volatility.
 
 ---
 
 ## 🛠 Tools & Skills Used
 
+### 🔧 Tools
 - **Power BI Desktop**
-- **DAX**  
-  - CALCULATE, FILTER  
-  - YoY Growth %  
-  - Rolling Averages  
-  - Pareto & cumulative share logic
-- **Data Modeling (Star Schema)**
-- **Advanced Visuals**  
-  - Map, Line, Bar, Scatter  
-  - Decomposition Tree  
-  - Forecasting visuals
-- **Analytical Storytelling & Dashboard Design**
+- **Microsoft Bing Maps**
+
+### 🧠 DAX Concepts
+- `CALCULATE`, `FILTER`
+- Year-over-Year (YoY) Growth %
+- Rolling Averages (3M, 6M, 12M)
+- Pareto & cumulative share logic
+- Time intelligence functions
+
+### 🧱 Data Modeling
+- **Star Schema**
+- Fact & dimension tables
+- Optimized relationships
+
+### 📊 Visualizations
+- KPI Cards
+- Bar & Column Charts
+- Line & Area Charts
+- Donut & Stacked Bar Charts
+- Maps
+- Scatter Plots
+- Decomposition Tree
+- Forecasting visuals
+- Matrix visuals
 
 ---
 
 ## 📂 Dataset
 
-The dataset used in this project is included in the repository as a ZIP file:
+📦 The dataset used in this project is included as a ZIP file:
 
 - `Border_Crossing_Entry_Data_DataSet.zip`
 
-Source: U.S. Bureau of Transportation Statistics (Border Crossing Entry Data)
+📍 **Source:**  
+U.S. Bureau of Transportation Statistics – Border Crossing Entry Data  
+(U.S. Government Open Data Portal)
 
 ---
 
@@ -94,36 +125,30 @@ Source: U.S. Bureau of Transportation Statistics (Border Crossing Entry Data)
 ```text
 US-Border-Crossing-Data-Analysis-PowerBI/
 ├── Dashboard_Screenshots/
-│   ├── Page1_Overview.png
-│   ├── Page2_Port_Analysis.png
-│   └── ...
+│   ├── 1.Screenshot_Overview.png
+│   ├── 2.Screenshot_Contents.png
+│   ├── 3.Screenshot_Overview_Dashboard.png
+│   ├── 4.Screenshot_Port_Analysis.png
+│   ├── 5.Screenshot_Transport_Mode.png
+│   ├── 6.Screenshot_Temporal_Analysis.png
+│   ├── 7.Screenshot_Forecasting.png
+│   ├── 8.Screenshot_Operational_Insights.png
+│   ├── 9.Screenshot_Results_Summary.png
+│   └── 10.Screenshot_Executive_Summary.png
+│
 ├── Dataset/
-│   └── US_Border_Crossing_Data.csv
+│   └── Border_Crossing_Entry_Data_DataSet.zip
+│
 ├── Report/
 │   └── US_Border_Crossing_Analysis_Report.pdf
+│
 ├── US_Border_Crossing_Dashboard.pbix
 ├── README.md
 └── .gitignore
-
-
-
 ```
----
-
-## 📸 Dashboard Pages
-
-1. **Landing Page & Navigation**
-2. **Overview & KPIs**
-3. **Port-Level Analysis**
-4. **Temporal & Seasonal Analysis**
-5. **Forecasting & Future Outlook**
-6. **Operational Insights**
-7. **Results Summary**
-8. **Executive Summary & Strategic Recommendations**
-
-Screenshots of each page are provided in the repository.
 
 ---
+
 ## 📊 Dashboard Pages Preview
 
 ### Page 1: Landing Page – Project Overview
@@ -158,29 +183,12 @@ Screenshots of each page are provided in the repository.
 
 ---
 
-## 🎯 Key Insights
-
-- The **U.S.–Mexico border** handles the majority of total crossings.
-- A small number of ports account for a disproportionately large share of traffic (Pareto effect).
-- **Personal vehicles** dominate overall traffic volume.
-- Clear **seasonal patterns** with peak activity during mid-year months.
-- A sharp decline around **2020** reflects external disruptions, followed by gradual recovery.
-- Forecasting indicates a **continued upward recovery trend** with moderate volatility.
-
----
-
 ## 📈 Strategic Recommendations
 
-- Prioritize infrastructure and staffing at high-volume ports.
-- Implement seasonal resource planning to handle predictable surges.
-- Monitor high-volatility ports for operational risk mitigation.
-- Use forecast insights for short-term capacity and policy planning.
-
----
-
-## 🙏 Acknowledgements
-
-Special thanks to **Jaffar Amin** for guidance and support while learning Power BI and data analytics.
+- Prioritize **infrastructure & staffing** at high-volume ports.  
+- Implement **seasonal resource planning** to handle predictable traffic surges.  
+- Monitor **high-volatility ports** for operational risk mitigation.  
+- Use **forecast insights** to support short-term capacity planning.
 
 ---
 
@@ -192,19 +200,39 @@ Special thanks to **Jaffar Amin** for guidance and support while learning Power 
 4. Interact with slicers to explore insights across borders, ports, time, and transport modes.
 
 ---
-## 👤 Author
 
-**Sri Charan**  
-B.Tech CSE, Lovely Professional University  
-## 📬 Feedback & Contact
+## ⚠️ Limitations
 
-Feedback, suggestions, and discussions are welcome.
-
-📧 Email: tokachichusricharan2005@gmail.com  
-🔗 LinkedIn: [Tokachichu Sri Charan – Power BI Project Post](https://www.linkedin.com/posts/tokachichu-sricharan_powerbi-dataanalytics-datavisualization-activity-7406358334343118848-LTI2)
-
+- Forecasting is based solely on **historical patterns** present in the data.  
+- **External policy changes** and geopolitical events are not explicitly modeled.  
+- Data accuracy depends on **government-reported records**.
 
 ---
 
-⭐ If you find this project useful, feel free to star the repository!
+## 🔮 Future Enhancements
+
+- Advanced forecasting models (**ARIMA / Prophet**).  
+- **Real-time data integration** and automated pipelines.  
+- **Power BI Service deployment** with scheduled refresh.  
+- **Role-based access control (RLS)** and enhanced security.
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to **Jaffar Amin** for guidance and mentorship in Power BI and data analytics.
+
+---
+
+## 👤 Author
+
+**Sri Charan**  
+B.Tech CSE – Lovely Professional University  
+
+📧 Email: **tokachichusricharan2005@gmail.com**  
+🔗 LinkedIn: [Tokachichu Sri Charan – Power BI Project Post](https://www.linkedin.com/posts/tokachichu-sricharan_powerbi-dataanalytics-datavisualization-activity-7406358334343118848-LTI2)
+
+
+
+
 
